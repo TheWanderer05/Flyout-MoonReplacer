@@ -11,7 +11,8 @@ This mod will not work without MelonLoader.
 3. If you want to replace the skybox, create a folder inside the MoonReplacer folder titled "Skybox". Place in this folder the six texture files you will use to replace the skybox.
 4. Each skybox texture name should take the same format as those used by the moon, but with "sky_" instead of "moon_".
 5. Open the config and make sure the image width of the skybox and moon textures matches the "moon image width" and "sky image width" fields. TEXTURES MUST BE SQUARE TO WORK CORRECTLY. IF DIMENSIONS DO NOT MATCH THOSE SET IN THE CONFIG, TEXTURES WILL APPEAR INCORRECTLY.
-6. You may need to lower the brightness of the textures you use, as even moderately bright textures can have noticeable visual artifacts.
+6. If you use a texture exporter or equirectangular to cubemap converter, you will probably need to swap the pos_y and neg_y texture files.
+7. You may need to lower the brightness of the textures you use, as even moderately bright textures can have noticeable visual artifacts.
 ## Accepted texture formats:
 This mod currently only supports .png, .jpg, and .exr file formats. TEXTURES MUST HAVE SQUARE DIMENSIONS.
 ## Additional notes:
