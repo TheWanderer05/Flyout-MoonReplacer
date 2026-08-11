@@ -1,6 +1,6 @@
 # MoonReplacer
 ## Dependencies
-This mod will not work without MelonLoader.
+This mod will not work without MelonLoader. Download it here: https://melonwiki.xyz/#/
 
 ## Installation steps:
 1. Place MoonReplacer.dll inside your Steam/steamapps/common/Flyout/Mods folder.
